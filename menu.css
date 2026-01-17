@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #8a2be27a;
+}
+
+/* header {
+    color: white;
+    background-color: purple;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 25px;
+    width: 100%;
+    height: 141px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+} */
+header {
+    /* background-color: #693369; */
+    background-color: #6933699d;
+    height: 141px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.396);
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-transform: capitalize;
+
+
+    /* text-transform: capitalize;
+    font-size: 50px;
+    text-align: center; */
+}
+
+h1 {
+    font-size: 46px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.526));
+}
+
+header .text p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+header img {
+    width: 180px;
+    height: 125px;
+    margin-left: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.thing {
+    width: 100%;
+    background-color: #8a2be27a;
+}
+
+section .image {
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+section .image .picture {
+    width: 200px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0px auto;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.421);
+}
+
+.image_1 {
+    background-image: url(./flower1.jpeg);
+}
+
+.image_2 {
+    background-image: url(./flower2.jpeg);
+}
+
+.image_3 {
+    background-image: url(./flower3.jpeg);
+}
+
+.image_4 {
+    background-image: url(./flower4.jpeg);
+}
+
+.image_5 {
+    background-image: url(./flower5.jpeg);
+}
+
+.image_6 {
+    background-image: url(./flower6.jpeg);
+}
+
+.image_7 {
+    background-image: url(./flower7.jpeg);
+}
+
+.image_8 {
+    background-image: url(./flower8.jpeg);
+}
+
+.image_9 {
+    background-image: url(./flower9.jpeg);
+}
+
+.image_10 {
+    background-image: url(./flower10.jpeg);
+}
+
+.image_11 {
+    background-image: url(./flower11.jpeg);
+}
+
+.image_12 {
+    background-image: url(./flower12.jpeg);
+}
+
+.image_13 {
+    background-image: url(./flower13.jpeg);
+}
+
+.image_14 {
+    background-image: url(./flower14.jpeg);
+}
+
+.image_15 {
+    background-image: url(./flower15.jpeg);
+}
+
+.image_16 {
+    background-image: url(./flower16.jpeg);
+}
+
+.image_17 {
+    background-image: url(./flower17.jpeg);
+}
+
+.image_18 {
+    background-image: url(./flower18.jpeg);
+}
+
+.image_19 {
+    background-image: url(./flower19.jpg);
+}
+
+.image_20 {
+    background-image: url(./flower20.jpeg);
+}
+
+.image_21 {
+    background-image: url(./flower21.jpeg);
+}
+
+.image_22 {
+    background-image: url(./flower22.jpeg);
+}
+
+.image_23 {
+    background-image: url(./flower23.jpeg);
+}
+
+.image_24 {
+    background-image: url(./flower24.jpeg);
+}
+
+.image_25 {
+    background-image: url(./flower25.jpeg);
+}
+
+.image_26 {
+    background-image: url(./flower26.jpeg);
+}
+
+.image_27 {
+    background-image: url(./flower27.jpeg);
+}
+
+.image_28 {
+    background-image: url(./flower28.JPG);
+}
+
+.image_29 {
+    background-image: url(./flower29.JPG);
+}
+
+.image_30 {
+    background-image: url(./flower30.JPG);
+}
+
+.image_31 {
+    background-image: url(./flower31.JPG);
+}
+
+.image_32 {
+    background-image: url(./flower32.JPG);
+}
+.image_33 {
+    background-image: url(./flower33.JPG);
+}
+.image_34 {
+    background-image: url(./flower34.JPG);
+}
+.image_35 {
+    background-image: url(./flower35.JPG);
+}
+.image_36 {
+    background-image: url(./flower36.JPG);
+}
+.image_37 {
+    background-image: url(flower37.JPG);
+}
+.image_38 {
+    background-image: url(./flower38.JPG);
+}
+.image_39 {
+    background-image: url(./flower39.JPG);
+}
+.image_40 {
+    background-image: url(./flower40.JPG);
+}
+.image_41 {
+    background-image: url(./flower41.JPG);
+}
+.image_42 {
+    background-image: url(./flower42.JPG);
+}
+.image_43 {
+    background-image: url(./flower43.JPG);
+}
+.image_44 {
+    background-image: url(./flower44.JPG);
+}
+.image_45 {
+    background-image: url(./flower45.JPEG);
+}
+.image_46 {
+    background-image: url(./flower46.JPG);
+}
+.image_47 {
+    background-image: url(./flower47.JPG);
+}
+.image_48 {
+    background-image: url(./flower48.JPG);
+}
+.image_49 {
+    background-image: url(./flower49.JPG);
+}
+.image_50 {
+    background-image: url(./flower50.JPG);
+}
+.image_51 {
+    background-image: url(./flower51.JPG);
+}
+.image_52 {
+    background-image: url(./flower52.JPG);
+}
+.image_53 {
+    background-image: url(./flower53.JPG);
+}
+.image_54 {
+    background-image: url(./flower54.JPG);
+}
+.image_55 {
+    background-image: url(./flower55.JPG);
+}
+.image_56 {
+    background-image: url(./flower56.JPG);
+}
+.image_57 {
+    background-image: url(./flower57.JPG);
+}
+.image_58 {
+    background-image: url(./flower58.JPG);
+}
+.image_59 {
+    background-image: url(./flower59.JPG);
+}
+.image_60 {
+    background-image: url(./flower60.JPG);
+}
+.image_61 {
+    background-image: url(./flower61.JPG);
+}
+.image_62 {
+    background-image: url(./flower62.JPEG);
+}
+.image_63 {
+    background-image: url(./flower63.JPEG);
+}
+.image_64 {
+    background-image: url(./flower64.JPEG);
+}
+.image_65 {
+    background-image: url(./flower65.JPEG);
+}
+.image_66 {
+    background-image: url(./flower66.JPG);
+}
+.image_67 {
+    background-image: url(./flower67.JPG);
+}
+.image_68 {
+    background-image: url(./flower68.JPG);
+}
+.image_69 {
+    background-image: url(./flower69.JPG);
+}
+.image_70 {
+    background-image: url(./flower70.JPG);
+}
+.image_71 {
+    background-image: url(./flower71.JPG);
+}
+.image_72 {
+    background-image: url(./flower72.JPEG);
+}
+.image_73 {
+    background-image: url(./flower73.JPEG);
+}
+.image_74 {
+    background-image: url(./flower74.JPG);
+}
+.image_75 {
+    background-image: url(./flower75.JPG);
+}
+.image_76 {
+    background-image: url(./flower76.JPG);
+}
+.image_77 {
+    background-image: url(./flower77.JPG);
+}
+.image_78 {
+    background-image: url(./flower78.JPG);
+}
+.image_79 {
+    background-image: url(./flower79.JPG);
+}
+.image_80 {
+    background-image: url(./flower80.JPG);
+}
+.image_81 {
+    background-image: url(./flower81.JPG);
+}
+.image_82 {
+    background-image: url(./flower82.JPG);
+}
+.image_83 {
+    background-image: url(./flower83.JPG);
+}
+.image_84 {
+    background-image: url(./flower84.JPG);
+}
+.image_85 {
+    background-image: url(./flower85.JPG);
+}
+.image_86 {
+    background-image: url(./flower86.JPG);
+}
+.image_87 {
+    background-image: url(./flower87.JPEG);
+}
+.image_88 {
+    background-image: url(./flower88.JPEG);
+}
+.image_89 {
+    background-image: url(./flower89.JPEG);
+}
+.image_90 {
+    background-image: url(./flower90.JPEG);
+}
+.image_91 {
+    background-image: url(./flower91.JPEG);
+}
+.image_92 {
+    background-image: url(./flower92.JPG);
+}
+.image_93 {
+    background-image: url(./flower93.JPG);
+}
+.image_94 {
+    background-image: url(./flower94.JPG);
+}
+.image_95 {
+    background-image: url(./flower95.PNG);
+}
+.image_96 {
+    background-image: url(./flower96.JPG);
+}
+.image_97 {
+    background-image: url(./flower97.JPG);
+}
+.image_98 {
+    background-image: url(./flower98.JPG);
+}
+.image_99 {
+    background-image: url(./flower99.JPG);
+}
+.image_100 {
+    background-image: url(./flower100.JPG);
+}
+.image_101 {
+    background-image: url(./flower101.JPG);
+}
+.image_102 {
+    background-image: url(./flower102.JPG);
+}
+.image_103 {
+    background-image: url(./flower103.JPG);
+}
+.image_104 {
+    background-image: url(./flower104.JPG);
+}
+.image_105 {
+    background-image: url(./flower105.JPG);
+}
+.image_106 {
+    background-image: url(./flower106.JPG);
+}
+.image_107 {
+    background-image: url(./flower107.JPG);
+}
+.image_108 {
+    background-image: url(./flower108.JPG);
+}
+.image_109 {
+    background-image: url(./flower109.JPG);
+}
+.image_110 {
+    background-image: url(./flower110.JPG);
+}
+.image_111 {
+    background-image: url(./flower111.JPG);
+}
+.image_112 {
+    background-image: url(./flower112.JPG);
+}
+.image_113 {
+    background-image: url(./flower113.JPG);
+}
+.image_114 {
+    background-image: url(./flower114.JPG);
+}
+.image_115 {
+    background-image: url(./flower115.JPG);
+}
+.image_116 {
+    background-image: url(./flower116.JPG);
+}
+.image_117 {
+    background-image: url(./flower117.JPG);
+}
+.image_118 {
+    background-image: url(./flower118.JPG);
+}
+.image_119 {
+    background-image: url(./flower119.JPG);
+}
+.image_120 {
+    background-image: url(./flower120.JPG);
+}
+.image_121 {
+    background-image: url(./flower121.JPG);
+}
+.image_122 {
+    background-image: url(./flower122.JPG);
+}
+.image_123 {
+    background-image: url(./flower123.JPG);
+}
+.image_124 {
+    background-image: url(./flower124.JPG);
+}
+.image_125 {
+    background-image: url(./flower125.JPG);
+}
+.image_126 {
+    background-image: url(./flower126.JPG);
+}
+.image_127 {
+    background-image: url(./flower127.JPG);
+}
+.image_128 {
+    background-image: url(./flower128.JPG);
+}
+.image_129 {
+    background-image: url(./flower129.JPG);
+}
+.image_130 {
+    background-image: url(./flower130.JPG);
+}
+.image_131 {
+    background-image: url(./flower131.JPG);
+}
+.image_132 {
+    background-image: url(./flower132.JPG);
+}
+.image_133 {
+    background-image: url(./flower133.JPG);
+}
+.image_134 {
+    background-image: url(./flower134.JPG);
+}
+.image_135 {
+    background-image: url(./flower135.JPG);
+}
+.image_136 {
+    background-image: url(./flower136.JPG);
+}
+.image_137 {
+    background-image: url(./flower137.JPG);
+}
+.image_138 {
+    background-image: url(./flower138.JPG);
+}
+.image_139 {
+    background-image: url(./flower139.JPG);
+}
+.image_140 {
+    background-image: url(./flower140.JPG);
+}
+.image_141 {
+    background-image: url(./flower141.JPG);
+}
+.image_142 {
+    background-image: url(./flower142.JPG);
+}
+.image_143 {
+    background-image: url(./flower143.JPG);
+}
+.image_144 {
+    background-image: url(./flower144.JPG);
+}
+.image_145 {
+    background-image: url(./flower145.JPG);
+}
+.image_146 {
+    background-image: url(./flower146.JPG);
+}
+.image_147 {
+    background-image: url(./flower147.JPG);
+}
+.image_148 {
+    background-image: url(./flower148.JPG);
+}
+.image_149 {
+    background-image: url(./flower149.JPG);
+}
+.image_150 {
+    background-image: url(./flower150.JPG);
+}
+.image_151 {
+    background-image: url(./flower151.JPG);
+}
+.image_152 {
+    background-image: url(./flower152.JPG);
+}
+.image_153 {
+    background-image: url(./flower153.JPG);
+}
+.image_154 {
+    background-image: url(./flower154.JPG);
+}
+.image_155 {
+    background-image: url(./flower155.JPG);
+}
+.image_156 {
+    background-image: url(./flower156.JPG);
+}
+.image_157 {
+    background-image: url(./flower157.JPG);
+}
+.image_158 {
+    background-image: url(./flower158.JPG);
+}
+.image_159 {
+    background-image: url(./flower159.JPG);
+}
+.image_160 {
+    background-image: url(./flower160.JPG);
+}
+.image_161 {
+    background-image: url(./flower161.JPG);
+}
+.image_162 {
+    background-image: url(./flower162.JPG);
+}
+.image_163 {
+    background-image: url(./flower163.JPG);
+}
+.image_164 {
+    background-image: url(./flower164.JPG);
+}
+.image_165 {
+    background-image: url(./flower165.JPG);
+}
+.image_166 {
+    background-image: url(./flower166.JPG);
+}
+.image_167 {
+    background-image: url(./flower167.JPG);
+}
+.image_168 {
+    background-image: url(./flower168.JPG);
+}
+.image_169 {
+    background-image: url(./flower169.PNG);
+}
+
+.box {
+    background-color: #ffffff36;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.box .s_text {
+    color: rgb(69, 8, 69);
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+.box .s_text p {
+    margin-top: 5px;
+    font-size: 18px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+/* img {
+    width: 180px;
+    height: 125px;
+    display: flex;
+    margin-left: 20px;
+} */
